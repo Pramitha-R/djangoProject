@@ -3,6 +3,6 @@ from django.urls import path
 
 
 urlpatterns = [
+    path('welcome/',views.display)
     
-    path('ui/', views.index)
 ]
