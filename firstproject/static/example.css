@@ -1,0 +1,80 @@
+h1{
+    display: inline-flex; /*only for text*/
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: slategray;
+}
+#fram1{
+    
+    background-color: rgb(158, 230, 230);
+    padding: 4px;
+    
+}
+.divtable1 {
+    
+    padding: 4px;
+}
+#headingof_theTable{
+    background-color: rgb(165, 161, 161);
+    text-align: left;
+    width: 2000px;
+}
+table{
+    background-color: aliceblue;   
+}
+table,th,td{
+    border-style: hidden;
+    
+    background-color: aliceblue;
+
+
+}
+table,th{
+    text-align: right;
+}
+select,input{
+    background-color: pink;
+    
+}
+
+.table1 tr th,td{
+    position: flex;
+    background-color: white;
+    font-size: 15px;
+    text-align: right;
+}
+.table1 tr td{
+    position: flex;
+    text-align: left;
+    display: flex;
+    position: left;
+}
+.table2 tr,th  {
+    background-color:rgb(133, 214, 133);
+    font-size: 10px;
+    text-align: center;
+
+}
+.table2 tr,td  {
+    text-align: left;
+    
+}
+.table2 #checkbox{
+    position: center;
+}
+textarea{
+    width: 200px;
+    height: 20px;
+}
+button{
+    
+    display: block;
+   
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+.but{
+    align-items: center;
+    
+}

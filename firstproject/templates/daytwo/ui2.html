@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'example2.css'%}">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="manu_bar">
+        <ul>
+            <li><a class="active" href="#"><label class="moneyware" for="">MoneyWare </label> <br><label class="fundware"for="">fundWare</label> <br> <label class="version_fundware" for="">v 17.1.0.</label></a>
+
+            </li>
+            <li style="padding-left: 50px;"><a href="#"><i class="fa fa-users" ></i>Welcome System admin  <label style="font-size: 10PX;" for="">23 of february 2023</label> </a></li>
+            <li style="padding-left: 100px;"><a href="#">masters</a></li>
+            <li><a href="#">Transaction</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Administration</a></li>
+            <li style="padding-left: 100px;"><a href="#">Last Etl Run On</a></li>
+            <li style="padding-left: 100px;"><img src="{% static 'logo-social.png'%}" alt=""></li>
+
+
+        </ul>
+    </div>
+
+
+
+<!--table-->
+<label class="star" style="padding-left: 1200px;" for="" >* Mendotary field</label> <br>
+
+<a href="">Additional field</a><br>
+
+<h1>CREATE A NEW FUND/PORTFOLIO</h1>
+<div class="divtable1">
+    <table class="table1">
+        
+        
+        <tr>
+            <th >AMC Name <label class="star" for="">*</label></th>
+            <td class="td_table1"><select >
+                <option >[Select]</option>
+              </select>
+            </td>
+            <th>
+
+            </th>
+        </tr>
+        <tr>
+            <th>Fund/Portfolio Name <label class="star" for="">*</label></th>
+            <td style="position: flex; text-align: left;"> <input type="text" id="lname" name="lname"></td>
+            
+            <th>Validity</th>
+            <td><select >
+                <option >[ALL]</option>
+              </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Multi Short Name</th>
+            <td style="position: flex; text-align: left;"> <input type="text" id="lname" name="lname"></td>
+            
+            <th>Trade type</th>
+            <td><select >
+                <option >Pooled</option>
+              </select>
+            </td>
+            
+        </tr>
+        <tr>
+            <th>Fund/Portfolio Display Name </th>
+            <td style="position: flex; text-align: left;"> <input type="text" id="lname" name="lname"></td>
+            
+            
+        </tr>
+        <tr>
+            <th >Price
+                <select >
+                    <option >[ALL]</option>
+                </select>
+            </th>
+
+            <th style="position: flex; text-align: left;">Value <input type="text" id="lname" name="lname"></th>
+            
+            <th>Yield
+                <select >
+                    <option >=</option>
+                </select>
+            </th>
+
+            <th style="position: flex; text-align: left;">Value <input type="text" id="lname" name="lname"></th>
+            
+        </tr>
+        <tr>
+            <th>Broker</th>
+            <td><select >
+                <option >[ALL]</option>
+              </select></td>
+        </tr>
+        <tr>
+            <th>ISIN</th>
+            <td ><input type="text" id="lname"  name="lname"></td>
+        </tr>
+    </table>
+
+</div>
+<br><br>
+ 
+</body>
+</html>

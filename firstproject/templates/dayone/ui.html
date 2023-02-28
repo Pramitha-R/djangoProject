@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'example.css'%}">
+</head>
+<body>
+    <h1>TRADE ALLOCATION APPROVAL</h1>
+    <div id="fram1">
+        
+        <div class="divtable1">
+            <table class="table1">
+                <tr ><th colspan="7" id="headingof_theTable">FILTER TRADES</th></tr>
+                
+                <tr>
+                    <th >Asset classification</th>
+                    <td class="td_table1"><select >
+                        <option >[ALL]</option>
+                      </select>
+                    </td>
+        
+                    <th>Asset type</th>
+                    <td class="td_table1"><select >
+                        <option >[ALL]</option>
+                      </select>
+                    </td>  
+                </tr>
+                <tr>
+                    <th>Trade order type</th>
+                    <td><select >
+                        <option >[ALL]</option>
+                      </select>
+                    </td>
+        
+                    <th>Validity</th>
+                    <td><select >
+                        <option >[ALL]</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Transation type</th>
+                    <td><select >
+                        <option >[ALL]</option>
+                      </select>
+                    </td>
+                    <th>Trade type</th>
+                    <td><select >
+                        <option >Pooled</option>
+                      </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <th >Pooling type</th>
+                    <td rowspan="2" ><select >
+                        <option >[ALL]</option>
+                      </select>
+                    </td>
+                    
+                    
+                </tr>
+                <tr>
+                    <th >Price
+                        <select >
+                            <option >[ALL]</option>
+                        </select>
+                    </th>
+        
+                    <th style="position: flex; text-align: left;">Value <input type="text" id="lname" name="lname"></th>
+                    
+                    <th>Yield
+                        <select >
+                            <option >=</option>
+                        </select>
+                    </th>
+        
+                    <th style="position: flex; text-align: left;">Value <input type="text" id="lname" name="lname"></th>
+                    
+                    
+                    
+        
+        
+                </tr>
+                <tr>
+                    <th>Broker</th>
+                    <td><select >
+                        <option >[ALL]</option>
+                      </select></td>
+                </tr>
+                <tr>
+                    <th>ISIN</th>
+                    <td ><input type="text" id="lname"  name="lname"></td>
+                </tr>
+            </table>
+        
+        </div>
+        <br><br>
+<div class="but" >
+    <button>Search</button>
+</div>
+        <div id="table2div">
+            <table class="table2">
+                <TR>
+                    <th >ASSET <br/> CLASSIFICATION</th>
+                    <TH >ISIN</TH>
+                    <TH>BROKER</TH>
+                    <TH>B/S</TH>
+                    <TH>TRADE ORDER <br/> TYPE</TH>
+                    <TH>TRADE DATE</TH>
+                    <TH>SETTLEMENT DATE</TH>
+                    <TH>QTY/FACE <br/> VALUE/UNIT</TH>
+                    <TH>PRICE</TH>
+                    <TH>CONSIDERATION <br/>TOTAL</TH>
+                    <TH>STATUS</TH>
+                    <TH>YTM</TH>
+                    <TH>AMOUNT</TH>
+                    <TH>VALIDITY</TH>
+                    <TH>REMARKS</TH>
+                    <TH>APPROVE<br/> <input type="checkbox" ></TH>
+                    <TH>DISAPPROVE <br/> <input type="checkbox"></TH>
+                    <TH>VIEW</TH>
+                    <TH>EDIT</TH>
+                </TR>
+                <tr>
+                    <TD>EQUITY</TD>
+                    <TD>32965</TD>
+                    <TD>First metro security <br/>brokerage corp</TD>
+                    <TD>buy</TD>
+                    <TD>Limit order</TD>
+                    <TD>21-Feb-2023</TD>
+                    <TD>21-Feb-2023</TD>
+                    <TD>25000</TD>
+                    <TD>15.0000</TD>
+                    <TD>37500000</TD>
+                    <TD>Pending</TD>
+                    <TD>0.0</TD>
+                    <TD>3535</TD>
+                    <TD>Good for Day</TD>
+                    <TD><textarea name="" id="" cols="30" rows="10"></textarea></TD>
+                    <TD id="checkbox"><input style="text-align:center;" type="checkbox"></TD>
+                    <TD><input type="checkbox"></TD>
+                    <TD><a href="">View</a></TD>
+                    <TD><a href="">Edit</a></TD>
+                </tr>
+                <tr>
+                    <TD>EQUITY</TD>
+                    <TD>32965</TD>
+                    <TD>First metro security <br/>brokerage corp</TD>
+                    <TD>buy</TD>
+                    <TD>Limit order</TD>
+                    <TD>21-Feb-2023</TD>
+                    <TD>21-Feb-2023</TD>
+                    <TD>25000</TD>
+                    <TD>15.0000</TD>
+                    <TD>37500000</TD>
+                    <TD>Pending</TD>
+                    <TD>0.0</TD>
+                    <TD>3535</TD>
+                    <TD>Good for Day</TD>
+                    <TD><textarea name="" id="" cols="30" rows="10"></textarea></TD>
+                    <TD><input class="radio" type="checkbox"></TD>
+                    <TD><input class="radio" type="checkbox"></TD>
+                    <TD><a href="">View</a></TD>
+                    <TD><a href="">Edit</a></TD>
+                </tr>
+                
+            </table>
+    
+        </div>
+    </div>
+    
+    
+</body>
+</html>
