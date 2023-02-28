@@ -16,3 +16,6 @@ while birth this file inside the firstproject db.sqlite3
 7.firstproject->firstproject->url.py edit path for calling  view 
 
 
+
+python manage.py runserver
+http://127.0.0.1:{portnumber}/welcome/
